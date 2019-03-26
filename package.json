@@ -1,0 +1,22 @@
+{
+  "name": "odo",
+  "version": "1.0.0",
+  "description": "Ontario Organ Donation Project Prototype ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aungarsynova/ODO.git"
+  },
+  "keywords": [
+    "donation"
+  ],
+  "author": "A. Ungarsynova, C. MacKay, D. Boyden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aungarsynova/ODO/issues"
+  },
+  "homepage": "https://github.com/aungarsynova/ODO#readme"
+}
