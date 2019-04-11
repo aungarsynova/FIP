@@ -19,5 +19,7 @@ export default {
         </button>
       </p>
     </form>
+    </div>
+    </div>
 `
 }

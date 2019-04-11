@@ -11,7 +11,7 @@ export default {
     </div>
 
     <div class="missionChild">
-    
+    <img :src="'images/child2.jpg'" >
     </div>
     
   </div>`
