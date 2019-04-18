@@ -1,0 +1,52 @@
+$red: #E1332D;
+$white: #fff;
+
+@mixin transition($transition){
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+  }
+
+  @mixin boxShadow($box-shadow) {
+	-webkit-box-shadow: $box-shadow;
+	-moz-box-shadow: $box-shadow;
+	-ms-box-shadow: $box-shadow;
+	-o-box-shadow: $box-shadow;
+	box-shadow: $box-shadow;
+  }
+
+.card{
+	position: relative;
+	display: inline-block;
+	width: 30rem;
+	max-width: 100%;
+	margin: 4rem 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 100%; 
+	img{
+		width: 100%;
+		
+	}
+}
+
+h4 {
+	cursor:pointer;
+	font-weight:900;
+	text-align: center;
+  } 
+
+#underline a{
+	@include transition(.25s ease-in-out);
+	@include boxShadow(inset 0px 0 0 0 #ff401a);
+	color:rgba(0,0,0,.8);
+	overflow:hidden;
+	text-decoration: none;
+	text-align: center;
+	&:hover {
+	  color:white;
+	  @include boxShadow(inset 200px 0 0 0 #ff401a);
+	}
+  }

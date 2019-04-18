@@ -60,9 +60,9 @@
 <partnership></partnership>
 
 <!-- Stories section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
-    <h3 class="w3-center">REAL LIFE STORIES</h3>
-    <p class="w3-center w3-large">Hear from those who exerienced the best miracle of their life</p>
+<div class="container" style="padding:128px 16px" id="team">
+    <h1 class="w3-center">REAL LIFE STORIES</h1>
+    <h4 id="underline"><a href="google.com">Share story</a></h4>
 <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
 <div v-for="story in storyList" >
 <stories :story="story"></stories>
@@ -71,20 +71,6 @@
 
 </div>
 </div>
-
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-
-
-
 
 <!-- Contact Section -->
 <contactform></contactform>
