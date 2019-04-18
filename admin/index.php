@@ -63,6 +63,8 @@ echo "Your last visit was - ". $visit;
 
     <nav>
         <ul>
+        <li><a href="admin_createstory.php">Create Story</a></li>
+        <li><a href="admin_editstory.php">Edit Story</a></li>
         <li><a href="admin_createuser.php">Create User</a></li>
 			<li><a href="admin_edituser.php">Edit User</a></li>
 			<li><a href="admin_deleteuser.php">Delete User</a></li>
