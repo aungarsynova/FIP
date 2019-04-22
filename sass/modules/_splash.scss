@@ -1,6 +1,11 @@
 //vars
 $red: #E1332D;
 $white: #fff;
+.splash {
+  background-image: url(https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: auto;
+  max-width: 100%;
+}
 
 .btn {
   color: #fff;
@@ -16,6 +21,7 @@ $white: #fff;
   text-transform: uppercase;
   width: 100%; 
   border-radius: 8px;
+  margin-left: 50%;
     
 }
   
