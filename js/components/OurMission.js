@@ -10,10 +10,9 @@ export default {
     <img :src="'images/child3.jpg'" class="kid img-fluid">
     <div class="mission-txt">
     <h1>Our Mission</h1>
-    <p>Put text for our mission here ez pz lemn squz
-    Put text for our mission here ez pz lemn squz
-    Put text for our mission here ez pz lemn squz
-    Put text for our mission here ez pz lemn squz</p>
+    <p>We want to spread the awaraness on organ donation across Ontario</p>
+    <p>We strive to help those who in need and guide those who wants to help</p>
+   
     <h4 id="underline"><a href="#">Learn more</a></h4>
     </div>
     </div>
